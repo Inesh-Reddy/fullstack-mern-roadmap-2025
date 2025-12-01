@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Forms</title>
+  </head>
+  <body>
+    <h1>HTML Form</h1>
+    <div>
+      <label for="name">Name:</label>
+      <input type="text" id="name" name="name" />
+    </div>
+    <br /><br />
+    <div>
+      <label for="email">Email: </label>
+      <input type="email" id="email" name="email" />
+    </div>
+    <br /><br />
+    <div>
+      <label for="age">Age: </label>
+      <input
+        type="number"
+        id="age"
+        name="age"
+        pattern="{0-9}"
+        minlength="10"
+        maxlength="10"
+      />
+    </div>
+    <br /><br />
+    <div>
+      <label for="file">Upload a file: </label>
+      <input type="file" id="file" name="file" />
+    </div>
+    <br /><br />
+    <div>
+      <label for="message">Message: </label>
+      <textarea name="message" id="message"></textarea>
+    </div>
+    <br /><br />
+    <div>
+      <label for="gender">Gender: </label>
+      <select id="gender" name="gender">
+        <option>Male</option>
+        <option>Female</option>
+        <option>Other</option>
+      </select>
+    </div>
+    <br /><br />
+    <div>
+      <label for="hobbies">Hobbies: </label><br />
+      <input type="checkbox" id="Reading" name="hobbies" value="Reading" />
+      <label for="Reading">Reading: </label><br />
+      <input type="checkbox" id="Traveling" name="hobbies" value="Traveling" />
+      <label for="Traveling">Traveling: </label><br />
+      <input type="checkbox" id="Gaming" name="hobbies" value="Gaming" />
+      <label for="Gaming">Gaming: </label><br />
+    </div>
+    <br /><br />
+    <div>
+      <label>Favorite Color:</label><br />
+      <input type="radio" id="color1" name="Favorite Color" />
+      <label for="color1">Red</label><br />
+      <input type="radio" id="color2" name="Favorite Color" />
+      <label for="color2">Blue</label><br />
+      <input type="radio" id="color3" name="Favorite Color" />
+      <label for="color3">Green</label><br />
+    </div>
+    <br /><br />
+    <button>Submit</button>
+  </body>
+</html>
