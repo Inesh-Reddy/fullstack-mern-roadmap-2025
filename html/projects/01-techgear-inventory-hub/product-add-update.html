@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>TeachGear Inventory Hub</title>
+  </head>
+  <body>
+    <header>
+      <h1>Add or Update Product</h1>
+    </header>
+    <aside style="width: 25%; float: left">
+      <nav>
+        <ul>
+          <li><a href="./index.html">Home</a></li>
+          <li><a href="./product-catalog.html">Product Catalog</a></li>
+          <li><a href="./product-add-update.html">Add/Update Product</a></li>
+          <li><a href="./category.html">Categories</a></li>
+          <li><a href="./quick-action.html">Quick Actions</a></li>
+          <li><a href="./restock.html">Restock Steps</a></li>
+        </ul>
+      </nav>
+    </aside>
+    <main style="width: 70%; float: right">
+      <form>
+        <label for="product">Prod: </label><br />
+        <input
+          type="text"
+          id="product"
+          name="product"
+          placeholder="Wireless Mouse"
+        /><br />
+        <br />
+        <div style="display: flex; gap: 20px; width: 100%">
+          <div>
+            <label for="id">ID (number):</label><br />
+            <input type="number" id="id" name="id" placeholder="101" />
+          </div>
+          <div>
+            <label for="week">Week:</label><br />
+            <input type="week" id="week" name="week" />
+          </div>
+        </div>
+        <br />
+        <div style="display: flex; gap: 20px; width: 100%">
+          <div>
+            <label for="vendor">Vendor: </label><br />
+            <input
+              type="email"
+              id="vendor"
+              name="vendor"
+              placeholder="vendor@gmail.com"
+            />
+          </div>
+          <div>
+            <label for="theme">Product Theme: </label><br />
+            <select id="theme" name="theme">
+              <option value="Black">Black</option>
+              <option value="Blue">Blue</option>
+              <option value="Red">Red</option>
+            </select>
+          </div>
+        </div>
+        <br />
+        <label for="">Phone no: </label><br />
+        <input
+          type="tel"
+          id="phone"
+          name="phone"
+          placeholder="9999999999"
+          pattern="{0-9}"
+          minlength="10"
+          maxlength="10"
+        />
+        <br />
+        <br />
+        <div style="display: flex; gap: 20px; width: 100%">
+          <div>
+            <label>Categories: </label><br />
+            <input
+              type="checkbox"
+              id="category"
+              name="category"
+              value="Peripheral"
+            />
+            <label for="category">Peripheral</label><br />
+            <input
+              type="checkbox"
+              id="category"
+              name="category"
+              value="Orange"
+            />
+            <label for="category">Orange</label><br />
+            <input type="checkbox" id="category" name="category" value="Kiwi" />
+            <label for="category">Kiwi</label><br />
+            <input
+              type="checkbox"
+              id="category"
+              name="category"
+              value="Banana"
+            />
+            <label for="category">Banana</label><br />
+          </div>
+          <div></div>
+        </div>
+      </form>
+    </main>
+  </body>
+</html>
