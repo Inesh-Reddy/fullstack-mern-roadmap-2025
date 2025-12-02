@@ -2,6 +2,8 @@
 
 **Objective:** Develop a single-page e-commerce dashboard titled "TechGear Inventory Hub" that visualizes and manages a product catalog inspired by your uploaded inventory screenshot. This project integrates **all HTML topics from Day-001 (fundamentals, semantics) and Day-002 (lists, tables, forms)**—from basic structure to exhaustive form interactions—into a cohesive admin panel. The challenge: Recreate the screenshot's messy table with semantic fixes (e.g., proper thead/tbody), embed grocery-style lists for categorization, and build a multi-input form for stock updates, ensuring 100% validation and ARIA compliance. Hard due to data accuracy (fix duplicates like the two "Wireless Mouse" entries) and nesting (tables in articles), but achievable by templating from your handwritten notes' tag snippets.
 
+![alt text](techgear-inventory.png)
+
 **Requirements (Exhaustive Coverage – Zero Skips):**
 
 - **DOCTYPE, Basic Structure (html, head, body):** `<!DOCTYPE html>`. `<head>`: `<title>TechGear Inventory Hub</title>`, `<meta charset="UTF-8">`, `<meta name="viewport" content="width=device-width, initial-scale=1">`, `<meta name="description" content="Day 1-2 HTML: Product Inventory Dashboard">`, `<meta name="keywords" content="inventory, table, form, semantics">`. `<body>` wraps all.

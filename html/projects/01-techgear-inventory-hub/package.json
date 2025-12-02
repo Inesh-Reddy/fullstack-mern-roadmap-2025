@@ -1,7 +1,7 @@
 {
-  "name": "personal-portfolio",
+  "name": "techgear-inventory-hub",
   "version": "0.1.0",
-  "description": "Personal Portfolio Showcase (Build New - Semantic-Driven Layout)",
+  "description": "techgear-inventory-hub Showcase",
   "main": "index.html",
   "scripts": {
     "dev": "live-server --open=./index.html"
