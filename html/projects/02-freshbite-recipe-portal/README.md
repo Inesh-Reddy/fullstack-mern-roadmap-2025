@@ -2,6 +2,8 @@
 
 **Objective:** Transform a basic "Contact Us" page (assume simple form from Day-001 notes) into "FreshBite Recipe Portal," a user-submission site blending grocery lists with inventory feedback forms. Layer **all Day-001/002 topics** for a submission/review flow: Grocery ol as recipe steps, inventory table for ingredient stocks, advanced forms for recipes. Difficulty: Enhance without breaking original (wrap form in main), integrate screenshot data as stock checker, add 20+ inputs with patterns—hard nesting (forms in sections), but use handwritten snippets for quick wins.
 
+![alt text](Freshbite-recipe.png)
+
 **Requirements (Full Integration – No Skips, Enhances Simple Base):**
 
 - **DOCTYPE, Basic Structure:** Reuse simple's doctype/head (add `<meta name="robots" content="index">`, keywords: "recipe, form, list"). Body: Add main around original form.
