@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CSS</title>
+    <style>
+      section > p {
+        color: red;
+      }
+      div > ol > li:nth-child(3) {
+        color: blue;
+      }
+    </style>
+  </head>
+  <body>
+    <div>
+      <h1>CSS Child Selector</h1>
+      <div>
+        <p>This paragraph is a direct child of the div and will be styled.</p>
+        <section>
+          <p>This paragraph is a nested child and will not be styled.</p>
+        </section>
+      </div>
+    </div>
+    <div>
+      <ol>
+        <li>Successsion for the other</li>
+        <li>Second</li>
+        <li>Third</li>
+        <li>Fourth</li>
+      </ol>
+    </div>
+  </body>
+</html>
