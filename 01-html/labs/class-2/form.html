@@ -1,0 +1,74 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Form</title>
+  </head>
+  <body>
+    <form action="/submit" method="post">
+      <div>
+        <label for="username">Name: </label>
+        <input type="text" id="username" name="username" /> <br />
+      </div>
+      <br />
+      <div>
+        <label for="email">Email: </label>
+        <input type="email" id="email" name="email" /> <br />
+      </div>
+      <br />
+      <div>
+        <label for="password">Password: </label>
+        <input type="password" id="password" name="password" /><br />
+      </div>
+      <br />
+      <div>
+        <label for="age">Age: </label>
+        <input type="number" id="age" name="age" min="18" max="60" />
+      </div>
+      <div>
+        <label for="dob">DOB: </label>
+        <input type="date" id="dob" name="dob" />
+      </div>
+      <div>
+        <label for="phone">Mobile Phone: </label>
+        <input
+          type="text"
+          id="phone"
+          name="phone"
+          pattern="[0-9]{10}"
+          minlength="10"
+          maxlength="10"
+        />
+        <br />
+      </div>
+      <br />
+      <div>
+        <p>Gender:</p>
+        <label for="male">Male</label>
+        <input type="radio" id="male" name="gender" value="male" />
+        <label for="female">Female</label>
+        <input type="radio" id="female" name="gender" value="female" />
+      </div>
+      <div>
+        <p>Hobbies:</p>
+        <label for="cricket">Cricket</label>
+        <input type="checkbox" id="cricket" name="hobbies" value="cricket" />
+        <label for="football">Football</label>
+        <input type="checkbox" id="football" name="hobbies" value="football" />
+      </div>
+      <label for="country">Country</label>
+      <select id="country" name="country">
+        <option value="uk">UK</option>
+        <option value="india">India</option>
+      </select>
+      <br />
+      <div>
+        <label for="feedback">Feedback: </label>
+        <textarea id="feedback"></textarea>
+      </div>
+
+      <button type="submit">Submit</button>
+    </form>
+  </body>
+</html>
