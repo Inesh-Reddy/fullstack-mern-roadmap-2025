@@ -1,0 +1,43 @@
+#landing-section {
+  background-color: lightblue;
+  text-align: center;
+}
+
+#main-heading {
+  font-size: 36px;
+  font-weight: bold;
+  color: lightblue;
+}
+
+.subheading {
+  font-size: 24px;
+  color: blue;
+  font-weight: normal;
+}
+
+.description {
+  font-size: 16px;
+  color: grey;
+}
+
+.button-container {
+  font-size: 16px;
+  font-weight: bold;
+}
+.button-container #learn-more {
+  background-color: green;
+  color: white;
+}
+.button-container #learn-more:hover {
+  background-color: darkgreen;
+  text-decoration: underline;
+}
+
+.button-container #sign-up {
+  background-color: red;
+  color: white;
+}
+.button-container #sign-up:hover {
+  background-color: darkred;
+  text-decoration: underline;
+}
