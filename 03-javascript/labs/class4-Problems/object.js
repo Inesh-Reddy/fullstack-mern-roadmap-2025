@@ -10,7 +10,7 @@
  *  }
  * ]
  */
-let input = [
+const input = [
   { name: "Alice", score: 92 },
   { name: "James", score: 90 },
   { name: "Bob", score: 80 },
@@ -18,7 +18,7 @@ let input = [
   { name: "john", score: 59 },
 ];
 const catogerizeStudents = (input) => {
-  let category = {};
+  const category = {};
   input.forEach((element) => {
     if (element.score >= 90) {
       if (!category["A"]) {
