@@ -17,11 +17,11 @@ const convertTemperature = (temp, conversionUnit) => {
     return `Please enter valid input..`;
   } else {
     if (conversionUnit === "C") {
-      return celciusToFahrenheit(temp);
+      return `${celciusToFahrenheit(temp)}° F`;
     } else {
-      return fahremheitToCelcius(temp);
+      return `${fahremheitToCelcius(temp)}° C`;
     }
   }
 };
 
-console.log(convertTemperature(100, "F"));
+console.log(convertTemperature(100, "C"));
