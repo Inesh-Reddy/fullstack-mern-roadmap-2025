@@ -24,17 +24,17 @@ const catogerizeStudents = (input) => {
       if (!category["A"]) {
         category["A"] = [];
       }
-      category["A"].push(element.name);
-    } else if (element.score < 90 && element.score >= 75) {
+      category.A.push(element.name);
+    } else if (element.score >= 75) {
       if (!category["B"]) {
         category["B"] = [];
       }
-      category["B"].push(element.name);
+      category.B.push(element.name);
     } else {
       if (!category["C"]) {
         category["C"] = [];
       }
-      category["C"].push(element.name);
+      category.C.push(element.name);
     }
   });
   return category;
