@@ -1,6 +1,8 @@
 // count sum of ele from an array
 
-const transactions = [1, 2, 3];
+const transactions = [1, 2, 3, -120, 234, 4, -64, 45];
+
+// convert the positive trxs to USD
 
 const findSum = (acc, ele) => {
   return acc + ele;
