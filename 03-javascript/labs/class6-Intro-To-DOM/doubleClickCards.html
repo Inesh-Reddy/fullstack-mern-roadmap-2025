@@ -1,0 +1,46 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>DoubleClickCards</title>
+    <style>
+      body {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+      }
+      .card {
+        border: 1px solid black;
+        height: 5rem;
+        width: 5rem;
+        margin: 1rem;
+      }
+      .green {
+        background-color: green;
+        box-shadow: 0px 0px 6px 5px greenyellow;
+      }
+      .red {
+        background-color: red;
+        box-shadow: 0px 0px 6px 5px rgb(118, 20, 20);
+      }
+      .blue {
+        background-color: blue;
+        box-shadow: 0px 0px 6px 5px rgb(18, 183, 183);
+      }
+    </style>
+  </head>
+  <body>
+    <div class="card" data-color="blue"></div>
+    <div class="card" data-color="red"></div>
+    <div class="card" data-color="blue"></div>
+    <div class="card" data-color="blue"></div>
+    <div class="card" data-color="red"></div>
+    <div class="card" data-color="green"></div>
+    <div class="card" data-color="blue"></div>
+    <div class="card" data-color="green"></div>
+    <div class="card" data-color="red"></div>
+    <div class="card" data-color="blue"></div>
+    <script src="doubleClickCards.js"></script>
+  </body>
+</html>
