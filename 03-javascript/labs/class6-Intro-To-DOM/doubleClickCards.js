@@ -1,6 +1,7 @@
 /****
  * 1. Select all the cards
- * 2.
+ * 2. Take the custom attribute
+ * 3. Add custom att as class att to get the styles to get reflected
  */
 const handleCards = (e) => {
   console.log(e);
@@ -9,9 +10,7 @@ const allCards = document.querySelectorAll(".card");
 
 allCards.forEach((ele) => {
   ele.addEventListener("dblclick", (e) => {
-    // taking the custom attribute
     const classToBeAttached = e.target.getAttribute("data-color");
-    // adding the custom attribute as class attribute
     e.target.classList.toggle(classToBeAttached);
   });
 });
