@@ -1,0 +1,42 @@
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  margin: 10px;
+}
+.movie-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin: 20px;
+}
+.movies {
+  align-items: center;
+  border: 1px solid black;
+  border-radius: 5px;
+  padding: 5px;
+  margin: 20px;
+  width: 100px;
+  background-color: red;
+}
+.movies h3 {
+  align-items: center;
+  border: 1px solid black;
+  border-radius: 5px;
+  margin-top: 0px;
+  text-align: center;
+  background-color: black;
+  color: white;
+}
+.movies p {
+  border: 1px solid black;
+  border-radius: 5px;
+  margin-top: 0px;
+  text-align: center;
+  background-color: white;
+  font-size: medium;
+  font-weight: bold;
+}
