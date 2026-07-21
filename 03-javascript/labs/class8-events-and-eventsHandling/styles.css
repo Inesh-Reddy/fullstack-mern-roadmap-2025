@@ -6,6 +6,12 @@ body {
   padding: 20px;
   margin: 10px;
 }
+h1 {
+  background-color: #f24242;
+  padding: 7px 10px;
+  border-radius: 5px;
+  text-decoration: underline;
+}
 .movie-container {
   display: flex;
   flex-direction: row;
