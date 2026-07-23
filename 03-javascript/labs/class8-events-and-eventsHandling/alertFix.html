@@ -1,5 +1,5 @@
 <!doctype html>
-<html>
+<html lang="en">
   <!-- Please NOTE that the link to assets (like images) need to be set in global context.
 For example:
 To access an image from assets folder correct way to set src attribute is 
@@ -49,7 +49,7 @@ src = './assets/profile.png'
 
       let red = document.querySelector(".red");
       red.addEventListener("click", (e) => {
-        if (red.classList.contains(e.target.classList.value)) {
+        if (e.target.classList.contains("red")) {
           window.alert("red is clicked");
         } else {
           window.alert("yellow is clicked");
