@@ -1,2 +1,3 @@
-Phase - 1:
+# Phase - 1
+
 ![alt text](image.png)
